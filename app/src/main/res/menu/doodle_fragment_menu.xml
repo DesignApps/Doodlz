@@ -9,6 +9,20 @@
    </item>
 
    <item
+      android:id="@+id/colorize"
+      android:title="@string/menuitem_colorize"
+      android:icon="@drawable/ic_colorize_24dp"
+      app:showAsAction="ifRoom">
+   </item>
+
+   <item
+      android:id="@+id/insert_photo"
+      android:title="@string/menuitem_insertphoto"
+      android:icon="@drawable/ic_insertphoto_24dp"
+      app:showAsAction="ifRoom">
+   </item>
+
+   <item
       android:id="@+id/line_width"
       android:title="@string/menuitem_line_width"
       android:icon="@drawable/ic_brush_24dp"
